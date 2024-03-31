@@ -1,6 +1,6 @@
-## <center> Hackintosh the Thinkpad X1 Carbon 6th Generation 
+# <center> Hackintosh the Thinkpad X1 Carbon 6th Generation </center>
 
-# notice
+## KEY CONFIG
 
 ### DP
 
