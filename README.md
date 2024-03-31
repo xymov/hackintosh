@@ -1,23 +1,28 @@
 ## <center> Hackintosh the Thinkpad X1 Carbon 6th Generation 
 
-### **notice：**
+# notice
 
 ### DP
 
 **audio:**
-* PciRoot(0x0)/Pci(0x1F,0x3) 
+- PciRoot(0x0)/Pci(0x1F,0x3) 
+    
+| model | key           | Data Type | value    |
+|:------|---------------|-----------|:---------|
+| x1c4  | alc-layout-id | Data      | 0E000000 |
+| x1c6  | alc-layout-id | Data      | 0B000000 | 
 
-   ``` layout-id | Data | 0B000000 ```
-   
 **video:**
-*  PciRoot(0x0)/Pci(0x2,0x0)
-```
-    AAPL,ig-platform-id | Data | 00001659 
-    
-    device-id | Data | 16590000 
-    
-```
-### Kernel
+- PciRoot(0x0)/Pci(0x2,0x0)  
+
+| model | key           | Data Type | value    |
+|:------|---------------|-----------|:---------|
+| x1c4  | AAPL,ig-platform-id | Data      | 00001619 |
+|  - | device-id | Data      | 16190000 |
+| x1c6  | AAPL,ig-platform-id | Data      | 00001659  | 
+| -  | device-id | Data      | 16590000  | 
+
+### Kernel:
 **usb:**
 ```
   USBToolBox.kext
@@ -40,8 +45,11 @@
    VoodooSMBus.kext 
    VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext 
   ```   
+### notes：
+- Only key data is listed here, other items have been omitted！
+- updete for 2024.3.31 
   
-# Reference link 
+### Reference link :
 
 - x1c6-hackintosh repositories:
   - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
