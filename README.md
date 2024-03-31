@@ -1,11 +1,11 @@
-# <center> Hackintosh the Thinkpad X1 Carbon 6th Generation </center>
+# <center> Hackintosh the Thinkpad X1 Carbon 4th/6th Generation </center>
 
-## KEY CONFIG
+### KEY CONFIG
 
-### DP
+ #### DP
 
 **audio:**
-- PciRoot(0x0)/Pci(0x1F,0x3) 
+ - PciRoot(0x0)/Pci(0x1F,0x3) 
     
 | model | key           | Data Type | value    |
 |:------|---------------|-----------|:---------|
@@ -22,7 +22,7 @@
 | x1c6  | AAPL,ig-platform-id | Data      | 00001659  | 
 | -  | device-id | Data      | 16590000  | 
 
-### Kernel:
+#### Kernel
 **usb:**
 ```
   USBToolBox.kext
@@ -45,11 +45,11 @@
    VoodooSMBus.kext 
    VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext 
   ```   
-### notes：
+#### notes：
 - Only key data is listed here, other items have been omitted！
 - updete for 2024.3.31 
   
-### Reference link :
+#### Reference link :
 
 - x1c6-hackintosh repositories:
   - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
