@@ -51,9 +51,11 @@
   
 #### Reference link :
 
+
 - x1c6-hackintosh repositories:
   - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
   - [zhtengw/EFI-for-X1C6-hackintosh](https://github.com/zhtengw/EFI-for-X1C6-hackintosh)   
 - hackintosh resources
    - [sqlsec-hackintosh](https://github.com/sqlsec/Hackintosh)
    - [daliansky-hackintosh](https://blog.daliansky.net/)
+   - [Thinkpad x1 c6 黑苹果及多系统安装教程Thinkpad x1 c6 黑苹果及多系统安装教程](https://www.nohacks.cn/hackintosh.html)
